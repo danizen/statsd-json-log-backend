@@ -1,6 +1,6 @@
 {
   "name": "statsd-json-log-backend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A StatsD backend that emits data into Logstash compatible JSON file.",
   "homepage": "https://github.com/fortumo/statsd-json-log-backend",
   "main": "lib/json_log.js",
