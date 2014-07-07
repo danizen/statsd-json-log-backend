@@ -1,19 +1,19 @@
-# StatsD backend for Logstash compatible JSON output
+## StatsD backend to flush stats to JSON file
 
-## Overview
+### Overview
 
-This is a pluggable backend for [StatsD][statsd] to flush stats into a Logstash compatible JSON file.
+This is a pluggable backend for StatsD to flush stats into a Logstash compatible JSON file.
 
-## Requirements
+### Requirements
 
-* [StatsD][statsd] versions >= 0.4.0.
+* statsd versions >= 0.4.0.
 
-## Installation
+### Installation
 
     $ cd /path/to/statsd
     $ npm install statsd-json-log-backend
 
-## Configuration and Enabling
+### Configuration and Enabling
 
 Add `json_log` configuration block and `statsd-json-log-backend` to the backends list in StatsD configuration file.
 
